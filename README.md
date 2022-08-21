@@ -50,16 +50,26 @@ python3 -m pip install dist/*.whl
        Перед вами рандомное число, необходимо написать "yes" или "no". Если простое то "yes", если нет то "no".
 
 brain-even
+
 [![asciicast](https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA.svg)](https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA)
 
+
 brain-calc
+
 [![asciicast](https://asciinema.org/a/515171.svg)](https://asciinema.org/a/515171)
 
+
 brain-gcd
+
 [![asciicast](https://asciinema.org/a/515177.svg)](https://asciinema.org/a/515177)
 
+
 brain-progression
+
 [![asciicast](https://asciinema.org/a/515178.svg)](https://asciinema.org/a/515178)
 
+
 brain-prime
+
 [![asciicast](https://asciinema.org/a/515179.svg)](https://asciinema.org/a/515179)
+
