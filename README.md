@@ -24,7 +24,7 @@ poetry build
 
 poetry publish 
 
-python3 -m pip установить dist/*.whl
+python3 -m pip install dist/*.whl
 
 
     1. Четное ли число (brain-even)
@@ -50,16 +50,16 @@ python3 -m pip установить dist/*.whl
        Перед вами рандомное число, необходимо написать "yes" или "no". Если простое то "yes", если нет то "no".
 
 brain-even
-https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA
+[![asciicast](https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA.svg)](https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA)
 
 brain-calc
-https://asciinema.org/a/nnWcu5dvImxY6vog0UMSvRoT3
+[![asciicast](https://asciinema.org/a/515171.svg)](https://asciinema.org/a/515171)
 
 brain-gcd
-https://asciinema.org/a/9UxAO0oDywj94EyQuvF673Zpb
+[![asciicast](https://asciinema.org/a/515177.svg)](https://asciinema.org/a/515177)
 
 brain-progression
-https://asciinema.org/a/XxYkFSNA8PJ09uFq8KcVqpSve
+[![asciicast](https://asciinema.org/a/515178.svg)](https://asciinema.org/a/515178)
 
 brain-prime
-https://asciinema.org/a/nnWcu5dvImxY6vog0UMSvRoT3
+[![asciicast](https://asciinema.org/a/515179.svg)](https://asciinema.org/a/515179)
