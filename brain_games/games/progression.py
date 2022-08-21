@@ -12,9 +12,9 @@ progression_length = 10
 
 
 def play_mind_games():
-    prog_start = randint(MAXIMUM_PROG_START, MINIMUM_PROG_START)
-    prog_step = randint(MAXIMUM_PROG_STEP, MINIMUM_PROG_STEP)
-    prog_length = randint(MAXIMUM_PROG_LENGTH, MINIMUM_PROG_LENGTH)
+    prog_start = randint(MINIMUM_PROG_START, MAXIMUM_PROG_START)
+    prog_step = randint(MINIMUM_PROG_STEP, MAXIMUM_PROG_STEP)
+    prog_length = randint(MINIMUM_PROG_LENGTH, MAXIMUM_PROG_LENGTH)
     progression = list(range(prog_start, prog_length, prog_step))
     progression = progression[:progression_length]
     random_index = randint(0, len(progression) - 1)
