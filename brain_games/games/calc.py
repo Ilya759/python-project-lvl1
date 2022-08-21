@@ -7,7 +7,7 @@ RANDOM_MIN_VALUE = 1
 RANDOM_MAX_VALUE = 100
 
 
-def question_and_answer():
+def play_mind_games():
     operators = ['+', '-', '*']
     number1 = randint(RANDOM_MIN_VALUE, RANDOM_MAX_VALUE)
     number2 = randint(RANDOM_MIN_VALUE, RANDOM_MAX_VALUE)
