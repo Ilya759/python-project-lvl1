@@ -15,7 +15,7 @@ def is_prime(n):
     return True
 
 
-def question_and_answer():
+def play_mind_games():
     random_number = randint(RANDOM_MIN_VALUE, RANDOM_MAX_VALUE)
     if is_prime(random_number):
         correct_answer = 'yes'
