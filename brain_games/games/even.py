@@ -6,7 +6,7 @@ RANDOM_MIN_VALUE = 1
 RANDOM_MAX_VALUE = 100
 
 
-def play_mind_games():
+def generate_data_for_the_game():
     random_number = randint(RANDOM_MIN_VALUE, RANDOM_MAX_VALUE)
     if random_number % 2 == 0:
         correct_answer = 'yes'
