@@ -8,15 +8,15 @@ MINIMUM_PROG_STEP = 2
 MAXIMUM_PROG_STEP = 5
 MINIMUM_PROG_LENGTH = 35
 MAXIMUM_PROG_LENGTH = 50
-progression_length = 10
+PROGRESSION_LENGTH = 10
 
 
-def play_mind_games():
+def generate_data_for_the_game():
     prog_start = randint(MINIMUM_PROG_START, MAXIMUM_PROG_START)
     prog_step = randint(MINIMUM_PROG_STEP, MAXIMUM_PROG_STEP)
     prog_length = randint(MINIMUM_PROG_LENGTH, MAXIMUM_PROG_LENGTH)
     progression = list(range(prog_start, prog_length, prog_step))
-    progression = progression[:progression_length]
+    progression = progression[:PROGRESSION_LENGTH]
     random_index = randint(0, len(progression) - 1)
     correct_answer = progression[random_index]
     progression[random_index] = '..'
