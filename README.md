@@ -8,17 +8,21 @@
 <a href="https://codeclimate.com/github/Ilya759/python-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/642806646ac8a0660cc0/test_coverage" /></a>
 
 
+# Brain games
 Всем привет, это мой первый  учебный проект.
             Проект "Игры разума"
-В проекте представленно 5 логических игр.
+В проекте представленно 5 логических игр.\
 
-Требования
+=================================================================================================
+
+## Требования
 Python 3.10 или выше
 
-Установка
+## Установка
 Используйте следующие команды для установки:
 
 '''
+
 poetry install
 
 poetry build
@@ -28,7 +32,9 @@ poetry publish
 python3 -m pip install dist/*.whl
 
 '''
+=================================================================================================
 
+Список игр: 
     1. Четное ли число (brain-even)
        Вам предлагают рандомное число, а вы должны ответить четное или нечетное число.
        "yes" или "no".
@@ -52,27 +58,27 @@ python3 -m pip install dist/*.whl
        Перед вами рандомное число, необходимо написать "yes" или "no". Если простое то "yes", если нет то "no".
 
 
-brain-even
+#### brain-even
 
 [![asciicast](https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA.svg)](https://asciinema.org/a/X6LqIwAUJH8uNV9h6EzVdaGRA)
 
 
-brain-calc
+#### brain-calc
 
 [![asciicast](https://asciinema.org/a/515171.svg)](https://asciinema.org/a/515171)
 
 
-brain-gcd
+#### brain-gcd
 
 [![asciicast](https://asciinema.org/a/515177.svg)](https://asciinema.org/a/515177)
 
 
-brain-progression
+#### brain-progression
 
 [![asciicast](https://asciinema.org/a/515178.svg)](https://asciinema.org/a/515178)
 
 
-brain-prime
+#### brain-prime
 
 [![asciicast](https://asciinema.org/a/515179.svg)](https://asciinema.org/a/515179)
 
