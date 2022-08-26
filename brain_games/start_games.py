@@ -1,7 +1,7 @@
 from prompt import string
 
 
-ROUND_GAME = 3
+roundsCount = 3
 
 
 def start(game):
@@ -9,16 +9,16 @@ def start(game):
     name = string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.TEXT_GAME)
-    congratulations = (f'Congratulations, {name}!')
-    for _ in range(ROUND_GAME):
-        question, correct_answer = game.play_mind_games()
+    for _ in range(roundsCount):
+        question, correct_answer = game.generate_data_for_the_game()
         print(f'Question: {question}')
-        user_answer = string("Your answer: ")
+        user_answer = string('Your answer: ')
         if correct_answer != user_answer:
-            print(f"""\"{user_answer}\" is wrong answer ;(.\
- Correct answer was \"{correct_answer}\".\nLet's try again, {name}!""")
+            print(f'\'{user_answer}\' is wrong answer ;(. '
+                  f'Correct answer was \'{correct_answer}\'')
+            print(f'Let\'s try again, {name}!')
             break
         else:
             print('Correct!')
     else:
-        print(congratulations)
+        print(f'Congratulations, {name}!')
