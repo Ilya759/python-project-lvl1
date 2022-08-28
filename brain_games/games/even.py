@@ -6,7 +6,7 @@ RANDOM_MIN_VALUE = 1
 RANDOM_MAX_VALUE = 100
 
 
-def generate_data_for_the_game():
+def generate_data():
     random_number = randint(RANDOM_MIN_VALUE, RANDOM_MAX_VALUE)
     if random_number % 2 == 0:
         correct_answer = 'yes'
