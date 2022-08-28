@@ -11,7 +11,7 @@ MAXIMUM_PROG_LENGTH = 50
 PROGRESSION_LENGTH = 10
 
 
-def generate_data_for_the_game():
+def generate_data():
     prog_start = randint(MINIMUM_PROG_START, MAXIMUM_PROG_START)
     prog_step = randint(MINIMUM_PROG_STEP, MAXIMUM_PROG_STEP)
     prog_length = randint(MINIMUM_PROG_LENGTH, MAXIMUM_PROG_LENGTH)
