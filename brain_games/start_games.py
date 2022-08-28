@@ -10,7 +10,7 @@ def start(game):
     print(f'Hello, {name}!')
     print(game.TEXT_GAME)
     for _ in range(roundsCount):
-        question, correct_answer = game.generate_data_for_the_game()
+        question, correct_answer = game.generate_data()
         print(f'Question: {question}')
         user_answer = string('Your answer: ')
         if correct_answer != user_answer:
