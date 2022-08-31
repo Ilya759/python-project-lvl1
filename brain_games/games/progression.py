@@ -16,12 +16,12 @@ def get_progression():
     prog_step = randint(MINIMUM_PROG_STEP, MAXIMUM_PROG_STEP)
     prog_length = randint(MINIMUM_PROG_LENGTH, MAXIMUM_PROG_LENGTH)
     progression = list(range(prog_start, prog_length, prog_step))
+    progression = progression[:PROGRESSION_LENGTH]
     return progression
 
 
 def generate_data():
     progression = get_progression()
-    progression = progression[:PROGRESSION_LENGTH]
     random_index = randint(0, len(progression) - 1)
     correct_answer = progression[random_index]
     progression[random_index] = '..'
